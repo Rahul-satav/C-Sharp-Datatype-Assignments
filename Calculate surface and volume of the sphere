@@ -4,14 +4,10 @@ public class Calculate_surface_and_volume_of_the_sphere
 {
     public static void Main()
     {
-        float r;
+        float r = 2;
         float pi = 22/7f;
 
-        Console.Write("Radius: ");
-        r = Convert.ToSingle(Console.ReadLine());
-
         Console.WriteLine(4 * pi * (r * r));
-
         Console.WriteLine(4f / 3f * pi * (r * r * r));
     }
 }
