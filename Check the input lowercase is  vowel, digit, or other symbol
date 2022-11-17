@@ -1,0 +1,19 @@
+using System;
+public class Check_the_input_lowercase_is__vowel__digit__or_other_symbol
+{
+    public static void Main()
+    {
+        char symbol;
+
+        Console.Write("Input a symbol: ");
+        symbol = Convert.ToChar(Console.ReadLine());
+
+        if ((symbol == 'a') || (symbol == 'e') || (symbol == 'i') ||
+                (symbol == 'o') || (symbol == 'u'))
+            Console.WriteLine("It's a lowercase vowel.");
+        else if ((symbol >= '0') && (symbol <= '9'))
+            Console.WriteLine("It's a digit.");
+        else
+            Console.Write("It's another symbol.");
+    }
+}
