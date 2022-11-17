@@ -1,6 +1,6 @@
 using System;
 
-public class Create_new_string_where_if__is_added_front_of_given_string
+namespace Create_new_string_where_if__is_added_front_of_given_string
 {
     class Program
     {
