@@ -1,0 +1,17 @@
+using System;
+
+public class Calculate_Perimeter_Of_Circle
+
+{
+    public static void Main()
+    {
+
+        double r, per_cir;
+        double PI = 3.14;
+        Console.WriteLine("Input the radius of the circle : ");
+        r = Convert.ToDouble(Console.ReadLine());
+        per_cir = 3.14 * 2 * r;
+        Console.WriteLine("Perimeter of Circle is : {0}", per_cir);
+        Console.Read();
+    }
+}
